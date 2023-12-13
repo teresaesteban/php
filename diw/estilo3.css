@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#diccionario {
+    margin-top: 50px;
+}
+
+#titulo {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#caja {
+    border: 2px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    margin: 10px; /* Centra la caja horizontalmente */
+    display: flex; /* Centra verticalmente los elementos hijos */
+}
+
+#izquierda {
+    width: 50%; /* Reducido el ancho para dar espacio a la palabra 2 */
+    padding: 0;
+    margin-left: 20px;
+}
+
+#derecha {
+    width: 50%; /* Aumentado el ancho para dar espacio a la palabra 4 */}
+
+.palabra {
+    margin-bottom: 10px;
+}

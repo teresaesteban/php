@@ -1,0 +1,11 @@
+.numeros-romanos,
+.puntos,
+.cuadrados {
+  display: none;
+}
+
+#checkbox-numeros-romanos:checked ~ #numeros-romanos,
+#checkbox-puntos:checked ~ #puntos,
+#checkbox-cuadrados:checked ~ #cuadrados {
+  display: block;
+}

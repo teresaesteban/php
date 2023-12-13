@@ -1,0 +1,85 @@
+header {
+background-color: black; /* Color de fondo opcional para el encabezado */
+padding: 20px; /* Espaciado interior */
+margin: auto;
+height: 150px;
+display: flex;
+flex-direction: row;
+width: 98%;
+  }
+  header img{
+justify-content: start;
+margin-right: 20%;
+  }
+  aside img{
+    width: 150px;
+    margin-left: 25%;
+  }
+  header .texto {
+  color: white;
+  text-align: center;
+  justify-content: end;
+  margin-top: 3%;
+
+  }
+  body{
+    margin: 0px;
+  }
+  .menu {
+    background-color:  darkgray; /* Borde para visualizar el contenedor */
+    text-align: center;
+    height: 40px;
+    width: 100%;
+  }
+  .menu a {
+    display: inline-block; /* Hace que los elementos sean mostrados en línea */
+   border-right: 10px solid darkgrey; /* Espacio entre elementos */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  footer{
+    text-align: center;
+    background-color: black;
+    display: block;
+    height: 80px;
+
+  }
+  .redesSociales img{
+    width: 40px;
+
+  }
+  nav{
+    background-color: gray;
+    color: black;
+  }
+  nav .central{
+    text-align: center;
+  }
+  nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  main{
+    background-color: white;
+    border: 20px solid white;
+  }
+  aside{
+    background-color: GRAY;
+
+  }
+  .caja{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows:auto;
+    height: 65vh;
+  }
+  .caja2{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows:auto;
+    height: auto;
+  }
