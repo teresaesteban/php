@@ -37,7 +37,8 @@ $randomArray = generarArrayAleatorio(50, 1, 100);
 $uniqueArray = eliminarRepetidos($randomArray);
 $average = calcularMedia($uniqueArray);
 
-print "<br>Array aleatorio: " . implode(", ", $randomArray) . "<br>";
+print "<br>Array aleatorio: " . implode(", ", $randomArray) . "<br>";//$frutas = array('manzana', 'pera', 'uva');$cadena = implode(', ', $frutas);echo $cadena;
+// Salida: manzana, pera, uva
 print "<br>Array sin duplicados: " . implode(", ", $uniqueArray) . "<br>";
 print "<br>Media de los números:".round($average,2)."<br>";
 ?>

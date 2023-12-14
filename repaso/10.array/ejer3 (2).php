@@ -27,7 +27,7 @@
 					//round($variable,2) redondea a dos decimales
 					//También se puede usar printf("%.2f", $variable) en vez de echo o print
 				echo "También se puede usar la función array_sum() y dividir por el número de elementos, count() o sizeof().<br><br>
-				El resultado sigue siendo: ",round(array_sum($v)/count($v),2);
+				El resultado sigue siendo: ",round(array_sum($v)/count($v),2);//redondea al entero mas cercanoel round
 			?>
 		</main>
 		<aside></aside>

@@ -18,8 +18,8 @@
 					$valor = [500, 200, 100, 50, 20, 10, 5, 2, 1];
 					print "<h1>Resultado</h1> ";
 					print "Cantidad total de euros pedidos a desglosar es: $cantidad<br/>";
-					for($i = 0; $i < count($valor); $i++) {
-						$unidades = intval($cantidad / $valor[$i]);		//También se puede utilizar la función floor()
+					for($i = 0; $i < count($valor); $i++) {/*es como el lenght */
+						$unidades = intval($cantidad / $valor[$i]);		//También se puede utilizar la función floor() coge solo los enteros
 						$cantidad = $cantidad % $valor[$i];				//Se almacena en la variable $cantidad el resto de la división para el siguiente paso del bucle
 						print "Nº de unidades de $valor[$i] euros es $unidades <br/>";
 					}

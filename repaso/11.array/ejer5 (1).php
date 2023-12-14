@@ -29,6 +29,10 @@ foreach ($words as $word) {
 }
 
 // Encuentra la palabra más corta
+/*$cadena = "Hola, mundo!";
+$longitud = strlen($cadena);
+echo "La longitud de la cadena es: $longitud";
+// Salida: La longitud de la cadena es: 12 */
 $shortestWord = $words[0];
 foreach ($words as $word) {
     if (strlen($word) < strlen($shortestWord)) {

@@ -64,7 +64,11 @@ function dibujarArrayOrdenadoPorIndice($array)
     print "<th>INDICE</th>";
     print "<th>VALOR</tdh";
     print "</tr>";
-    foreach ($array as $indice => $valor) {
+    foreach ($array as $indice => $valor) {/*$frutas = array('manzana' => 'roja', 'pera' => 'verde', 'uva' => 'morada');
+
+        foreach ($frutas as $nombre => $color) {
+            echo "La $nombre es de color $color <br/>";
+        } */
         print "<tr>";
         print "<td>$indice</td>";
         print "<td>$valor</td>";
